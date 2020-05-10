@@ -1,0 +1,26 @@
+name: ${project.name}
+version: ${project.version}
+api-version: '1.13'
+main: io.github.lokka30.papichatformatter.PAPIChatFormatter
+author: lokka30
+depend: [PhantomLib, PlaceholderAPI]
+
+commands:
+  papichatformatter:
+    description: View plugin information, or reload the settings and messages file.
+    aliases: [papicf, pchatformatter, pcf, papichat]
+    usage: /<command> [reload]
+
+permissions:
+  papichatformatter.*:
+    default: op
+    description: all permissions.
+    children:
+      papichatformatter.reload: true
+      papichatformatter.coloredmessages: true
+  papichatformatter.coloredmessages:
+    default: op
+    description: allowed to use color codes in messages
+  papichatformatter.reload:
+    default: op
+    description: allowed to run /papicf reload.

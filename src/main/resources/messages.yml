@@ -1,0 +1,15 @@
+prefix: '&b&lPCF:&7'
+plugin-info:
+  - ' '
+  - '&bPAPIChatFormatter v%version%&7 by &blokka30'
+  - ' '
+  - '&7Available commands:'
+  - '&8 &m->&3 /pcf reload &8- &7reload settings and messages'
+  - ' '
+no-permission: '%prefix% You don''t have access to that.'
+reload-started: '%prefix% Reload started ...'
+reload-complete: '%prefix% ... Reload complete.'
+usage: '%prefix% Usage: &b/%label% reload'
+
+# Don't touch this unless you know what you are doing.
+file-version: 1

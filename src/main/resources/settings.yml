@@ -1,0 +1,19 @@
+# Thank you for installing PAPIChatFormatter.
+# If you enjoy the resource, leaving a 5-star review will let others know the plugin is working brilliantly. :)
+#
+# Methods to contact me:
+# - Join the Discord Server: https://discord.gg/69NWW6A
+# - PM me on Discord: lokka30#6659
+# - PM me on SpigotMC: @lokka30
+
+# What should the chat format be?
+# Allows PlaceholderAPI placeholders - list: https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders
+# Message placeholder: %message%
+# Default format: '%vault_prefix% %player_name%&8: &7%message%'
+format: '%vault_prefix% %player_name%&8: &7%message%'
+
+# Should PAPIChatFormatter check for updates off the SpigotMC page on startup?
+use-update-checker: true
+
+# Don't touch this unless you know what you are doing.
+file-version: 1
