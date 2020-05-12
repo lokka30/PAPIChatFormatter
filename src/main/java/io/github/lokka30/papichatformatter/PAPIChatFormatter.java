@@ -163,7 +163,7 @@ public class PAPIChatFormatter extends JavaPlugin {
     private void checkForUpdates() {
         if (fileCache.SETTINGS_USE_UPDATE_CHECKER) {
             phantomLogger.log(LogLevel.INFO, logPrefix, "&8(&3Update Checker&8) &7Checking for updates...");
-            new UpdateChecker(this, 12345).getVersion(version -> { //TODO CHANGE
+            new UpdateChecker(this, 78684).getVersion(version -> {
                 final String currentVersion = getDescription().getVersion();
 
                 if (currentVersion.equals(version)) {

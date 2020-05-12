@@ -24,13 +24,13 @@ public class ChatListener implements Listener {
             String format = instance.fileCache.SETTINGS_FORMAT;
             format = PlaceholderAPI.setPlaceholders(event.getPlayer(), format);
             format = messageMethods.colorize(format);
+            String message = event.getMessage().replace("%", "%%");
 
             if(player.hasPermission("papichatformatter.coloredmessages")) {
-                format = format.replaceAll("%message%", messageMethods.colorize(event.getMessage()));
+                format = format.replace("%message%", messageMethods.colorize(message));
             } else {
-                format = format.replaceAll("%message%", event.getMessage());
+                format = format.replace("%message%", message);
             }
-
 
             event.setFormat(format);
         }

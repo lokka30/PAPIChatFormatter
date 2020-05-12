@@ -6,7 +6,7 @@
 
     <groupId>io.github.lokka30</groupId>
     <artifactId>PAPIChatFormatter</artifactId>
-    <version>1.0.0-ALPHA</version>
+    <version>1.0.1-ALPHA</version>
 
     <name>PAPIChatFormatter</name>
     <description>Format your chat with PAPI placeholders.

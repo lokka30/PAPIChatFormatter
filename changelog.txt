@@ -1,2 +1,7 @@
 v1.0.0-ALPHA:
 - []
+
+v1.0.1-ALPHA:
+- Fix | Users putting the % sign in their message will no longer break the format.
+- Fix | Update checker is now using the correct resource id.
+- Improvement | Using replace method instead of replaceAll method
