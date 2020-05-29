@@ -6,7 +6,7 @@
 
     <groupId>io.github.lokka30</groupId>
     <artifactId>PAPIChatFormatter</artifactId>
-    <version>1.0.1-ALPHA</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>PAPIChatFormatter</name>
     <description>Format your chat with PAPI placeholders.
@@ -100,7 +100,7 @@
         <dependency>
             <groupId>com.github.JavaFactoryDev</groupId>
             <artifactId>LightningStorage</artifactId>
-            <version>3.0.9</version>
+            <version>3.1.2</version>
         </dependency>
         <dependency>
             <groupId>org.bstats</groupId>
