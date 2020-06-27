@@ -8,3 +8,10 @@ v1.0.1-ALPHA:
 
 v1.0.2-SNAPSHOT:
 - Improvement | Updated dependencies to better preserve configuration comments
+
+v1.0.3-RELEASE:
+- Note | Plugin has proven stable and is now in the RELEASE stage.
+- Improvement | Plugin now supports 1.16.1
+- Improvement | Compiled in Spigot 1.16.1.
+- Improvement | Added '1.16' to the supported versions in the compatibility checker on startup.
+- Improvement | Updated libraries.

@@ -12,6 +12,7 @@ public class Utils {
 
     public List<String> getSupportedServerVersions() {
         return Arrays.asList(
+                "1.16",
                 "1.15",
                 "1.14",
                 "1.13",
